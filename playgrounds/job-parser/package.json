@@ -1,8 +1,8 @@
 {
-  "name": "ts-example-playground",
+  "name": "job-parser",
   "description": "Just another playground",
-  "type": "module",
   "version": "0.0.0",
+  "type": "module",
   "keywords": [
     "",
     "",
@@ -24,11 +24,11 @@
     "dev": "echo test"
   },
   "dependencies": {
-    "@prefix-example/ts-example-library": "file:../../libraries/ts-example-library"
+    "@iwyfaf-js-plugins/job-parser": "file:../../libraries/job-parser"
   },
   "devDependencies": {
-    "@types/node": "^18.11.18",
-    "prettier": "^2.8.1",
-    "typescript": "^4.9.4"
+    "@types/node": "^20.2.5",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
   }
 }

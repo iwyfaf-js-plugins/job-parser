@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "[ts-example-library]Enter publish version: "
+echo "[job-parser]Enter publish version: "
 read VERSION
 
 read -p "Publishing - are you sure? (y/n)" -n 1 -r

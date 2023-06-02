@@ -1,6 +1,6 @@
 {
-  "name": "@prefix-example/ts-example-library",
-  "description": "Test TS library",
+  "name": "@iwyfaf-js-plugins/job-parser",
+  "description": "HH & Habr parser.",
   "version": "0.0.0",
   "type": "module",
   "exports": "./dist/index.esm.js",
@@ -32,13 +32,15 @@
     "build": "rollup -c",
     "pushnpm": "./publish.sh"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@iwyfaf-js-utilities/rest-client": "^1.1.3"
+  },
   "devDependencies": {
-    "@types/node": "^18.11.18",
-    "prettier": "^2.8.1",
-    "rollup": "^3.9.0",
+    "@types/node": "^20.2.5",
+    "prettier": "^2.8.8",
+    "rollup": "^3.23.0",
     "rollup-plugin-clear": "^2.0.7",
     "rollup-plugin-typescript2": "^0.34.1",
-    "typescript": "^4.9.4"
+    "typescript": "^5.0.4"
   }
 }
