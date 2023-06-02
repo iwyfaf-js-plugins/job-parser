@@ -6,6 +6,7 @@ HH & Habr parser.
 - [Query](#query)
 - [HH Parser](#hh-parser)
 - [Habr Parser](#habr-parser)
+- [Routine methods](#routine-methods)
 
 ## Install
 To install, you need to create a file .npmrc and specify the URL of the local repository and the
